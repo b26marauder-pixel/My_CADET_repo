@@ -130,7 +130,7 @@ simulation_results = process_simulator.simulate(process)
 #Laborversuche laden
 
 import pandas as pd
-data = pd.read_excel("IA-values_pH8_MRE.xlsx", index_col=0)
+data = pd.read_excel("../data/IA-values_pH8_MRE.xlsx", index_col=0)
 
 data.plot()
 
